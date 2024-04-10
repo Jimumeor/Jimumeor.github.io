@@ -4,8 +4,13 @@
 	<meta name="generator" content="Hugo 0.124.1">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="这是标题#Astris ipse furtiva顶顶顶顶#Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut olivae sensit arma sorori deducit, inesset crudus, ego vetuere aliis, modo arsit? Utinam rapta fiducia valuere litora adicit cursu, ad facies
-Suis quot vota#Ea furtique risere fratres edidit terrae magis. Colla tam mihi tenebat: miseram excita suadent es pecudes iam. Concilio quam velatus posset ait quod nunc! Fragosis suae dextra geruntur functus vulgata.">
+<meta name="description" content="这是标题#修改#使用开发模式进行修改
+hugo server 修改完本地会立即更改，没更改可能会有缓存
+修改完后#运行hugo命令
+hugo 会生成静态页面，生成文件在public目录下 然后进public目录
+cd public 分别执行以下命令:
+git add . # 添加所有更改的文件 git commit -m &#39;备注&#39; # 提交更改 git push # 把更改的文件上传到Github上 最后，坐等刷新页面，有缓存可能要等一会儿才会更新
+Astris ipse furtiva顶顶顶顶#Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut olivae sensit arma sorori deducit, inesset crudus, ego vetuere aliis, modo arsit? Utinam rapta fiducia valuere litora adicit cursu, ad facies">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Introduction" />
@@ -411,6 +416,12 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
+    <li>
+      <ul>
+        <li><a href="#修改">修改</a></li>
+        <li><a href="#修改完后">修改完后</a></li>
+      </ul>
+    </li>
     <li><a href="#tempora-nisi-nunc">Tempora nisi nunc</a></li>
     <li><a href="#locis-suis-novi-cum-suoque-decidit-eadem">Locis suis novi cum suoque decidit eadem</a></li>
   </ul>
@@ -429,6 +440,27 @@ https://github.com/alex-shpak/hugo-book
   这是标题
   <a class="anchor" href="#%e8%bf%99%e6%98%af%e6%a0%87%e9%a2%98">#</a>
 </h1>
+<h3 id="修改">
+  修改
+  <a class="anchor" href="#%e4%bf%ae%e6%94%b9">#</a>
+</h3>
+<p>使用开发模式进行修改</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>修改完本地会立即更改，没更改可能会有缓存</p>
+<h3 id="修改完后">
+  修改完后
+  <a class="anchor" href="#%e4%bf%ae%e6%94%b9%e5%ae%8c%e5%90%8e">#</a>
+</h3>
+<p>运行<code>hugo</code>命令</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo
+</span></span></code></pre></div><p>会生成静态页面，生成文件在<code>public</code>目录下
+然后进public目录</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cd public
+</span></span></code></pre></div><p>分别执行以下命令:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git add .  <span style="color:#75715e"># 添加所有更改的文件</span>
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#39;备注&#39;</span> <span style="color:#75715e"># 提交更改</span>
+</span></span><span style="display:flex;"><span>git push <span style="color:#75715e"># 把更改的文件上传到Github上</span>
+</span></span></code></pre></div><p>最后，坐等刷新页面，有缓存可能要等一会儿才会更新</p>
 <div class="book-columns flex flex-wrap">
 
   <div class="flex-even markdown-inner">
@@ -514,6 +546,12 @@ if (backup + system) {
   
 <nav id="TableOfContents">
   <ul>
+    <li>
+      <ul>
+        <li><a href="#修改">修改</a></li>
+        <li><a href="#修改完后">修改完后</a></li>
+      </ul>
+    </li>
     <li><a href="#tempora-nisi-nunc">Tempora nisi nunc</a></li>
     <li><a href="#locis-suis-novi-cum-suoque-decidit-eadem">Locis suis novi cum suoque decidit eadem</a></li>
   </ul>
